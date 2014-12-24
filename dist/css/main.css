@@ -560,7 +560,7 @@ p {
   background-color: #2895d0;
   width: 100%; }
   .main-header .menu-icon {
-    background: url("/dist/img/burger-icon.png") center no-repeat;
+    background: url("../img/burger-icon.png") center no-repeat;
     -webkit-background-size: 30px 30px;
        -moz-background-size: 30px;
          -o-background-size: 30px;
@@ -580,7 +580,7 @@ p {
     padding: 6px 0;
     width: 124px; }
     .main-header .logo-title a {
-      background: url("/dist/img/logo-title.png") center no-repeat;
+      background: url("../img/logo-title.png") center no-repeat;
       -webkit-background-size: 124px 48px;
          -moz-background-size: 124px 48px;
            -o-background-size: 124px 48px;
@@ -609,7 +609,7 @@ p {
     background-color: rgba(0, 0, 0, 0);
     left: -100%; }
   .menu-wrapper .close-icon {
-    background: url("/dist/img/icon-menu-close.png") center no-repeat;
+    background: url("../img/icon-menu-close.png") center no-repeat;
     -webkit-background-size: 30px 30px;
        -moz-background-size: 30px;
          -o-background-size: 30px;
@@ -688,7 +688,7 @@ p {
     width: 100%; }
   .title-section .down-button {
     bottom: 0;
-    background: url("/dist/img/push-down-button.png") center no-repeat;
+    background: url("../img/push-down-button.png") center no-repeat;
     cursor: pointer;
     -webkit-background-size: 22px 22px;
        -moz-background-size: 22px;
@@ -755,7 +755,7 @@ p {
   p {
     font-size: 21px; }
   .main-header .menu-icon {
-    background: url("/dist/img/burger-icon.png") center no-repeat;
+    background: url("../img/burger-icon.png") center no-repeat;
     -webkit-background-size: 45px 45px;
        -moz-background-size: 45px;
          -o-background-size: 45px;
@@ -992,7 +992,7 @@ p {
 html[data-page="home"] .title-section {
   padding-top: 5px; }
 html[data-page="home"] .video-button {
-  background: url("/dist/img/content/home-video.png") top center no-repeat;
+  background: url("../img/content/home-video.png") top center no-repeat;
   -webkit-background-size: 245px 284px;
      -moz-background-size: 245px 284px;
        -o-background-size: 245px 284px;
@@ -1070,7 +1070,7 @@ html[data-page="home"] .learn-more {
         padding-left: 0; } }
 
 html[data-page="technology"] .title-section .section-icon {
-  background-image: url("/dist/img/content/technology-padlock.png");
+  background-image: url("../img/content/technology-padlock.png");
   -webkit-background-size: 120px 120px;
      -moz-background-size: 120px;
        -o-background-size: 120px;
@@ -1127,7 +1127,7 @@ html[data-page="pricing"] .price-item {
     padding-left: 10px;
     position: relative; }
     html[data-page="pricing"] .price-item .more-info-link:before {
-      background: url("/dist/img/icon-green-plus.png") no-repeat;
+      background: url("../img/icon-green-plus.png") no-repeat;
       -webkit-background-size: 8px 8px;
          -moz-background-size: 8px;
            -o-background-size: 8px;
@@ -1305,7 +1305,7 @@ html[data-page="pricing"] .legal {
     width: 100%; } }
 
 html[data-page="howItWorks"] .title-section .section-icon {
-  background-image: url("/dist/img/content/howItWorks-laptop.png");
+  background-image: url("../img/content/howItWorks-laptop.png");
   -webkit-background-size: 175px 108px;
      -moz-background-size: 175px 108px;
        -o-background-size: 175px 108px;
@@ -1321,7 +1321,7 @@ html[data-page="howItWorks"] .title-section .section-icon {
     background: none; } }
 
 html[data-page="signup"] .title-section .section-icon {
-  background-image: url("/dist/img/content/signup-checklist.png");
+  background-image: url("../img/content/signup-checklist.png");
   -webkit-background-size: 124px 124px;
      -moz-background-size: 124px;
        -o-background-size: 124px;
@@ -1349,7 +1349,7 @@ html[data-page="signup"] form#signupForm .reminder {
 html[data-page="signup"] form#signupForm .check-username {
   position: relative; }
   html[data-page="signup"] form#signupForm .check-username:after {
-    background: url("/dist/img/username-check.png") no-repeat center bottom;
+    background: url("../img/username-check.png") no-repeat center bottom;
     -webkit-background-size: 22px 44px;
        -moz-background-size: 22px 44px;
          -o-background-size: 22px 44px;
