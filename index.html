@@ -37,6 +37,7 @@
         <script type="application/javascript" src="dist/js/vendor/jquery-1.11.2.min.js"></script>
         <script type="application/javascript" src="dist/js/vendor/modernizr-2.8.3.min.js"></script>
         <script type="application/javascript" src="dist/js/vendor/respond-1.4.2.min.js"></script>
+        <script type="application/javascript" src="dist/js/vendor/sublimevideo.js"></script>
         <script type="application/javascript" src="dist/js/main.js"></script>
     </head>
 
@@ -75,8 +76,12 @@
             <!-- CONTENT -->
             <div class="blue-background">
                 <div class="title-section wrapper clearfix">
-                    <div class="video-button desktopOnly"><a href="#"></a></div>
 
+                    <div class="video-button desktopOnly"><a href="#0" class="sublime"></a></div>
+                    <video id="0" width="800" height="450" data-uid="0" preload="none" style="display:none">
+                      <source src="https://peerio.com/video/peerio.mp4" data-quality="hd" />
+                      <source src="https://peerio.com/video/peerio.webm" data-quality="hd" />
+                    </video>
                     <div class="content">
                         <h2>Secure messaging and file sharing made easy.</h2>
 
