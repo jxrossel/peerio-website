@@ -418,7 +418,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   font-weight: 400;
-  line-height: 1.4; }
+  line-height: 1.4em; }
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -644,7 +644,8 @@ p {
 
 .content-section {
   padding-top: 26px;
-  padding-bottom: 26px; }
+  padding-bottom: 26px;
+  line-height: 1.7em; }
   .content-section img {
     width: 100%; }
 
@@ -679,8 +680,12 @@ p {
   position: relative;
   text-align: center;
  }
-  .title-section h1 {
-    padding-top: 5px; }
+  .title-section p {
+    line-height: 1.8em !important;
+  }
+  .title-section h1, .title-section h2 {
+    padding-top: 5px;
+    line-height: 1.5em !important; }
   .title-section .section-icon {
     background-position: center top;
     background-repeat: no-repeat;
@@ -712,7 +717,8 @@ p {
   margin: 0 auto 20px;
   padding: 5px;
   text-decoration: none;
-  width: 200px; }
+  width: 200px;
+  box-shadow: 7px 7px rgba(80, 170, 230, 0.9); }
   .sign-button .title {
     color: #2895d0;
     display: block;
@@ -721,6 +727,14 @@ p {
     color: #333333;
     display: block;
     font-size: 10px; }
+
+.sign-button:hover {
+  background-color: box-shadow: 7px 7px rgba(80, 170, 230, 1);
+}
+
+.sign-button:active {
+  box-shadow: inset 4px 4px rgba(80, 170, 230, 0.5);
+}
 
 .button {
   background-color: #2895d0;
@@ -1270,7 +1284,8 @@ html[data-page="pricing"] .legal {
   html[data-page="pricing"] .content-section.wrapper {
     padding: 0 84px; }
   html[data-page="pricing"] .price-bundles {
-    margin-top: -320px; }
+    margin-top: -320px;
+    line-height: 1.4em; }
     html[data-page="pricing"] .price-bundles .price-item {
       background-color: #f6f6f6;
       padding: 32px;
