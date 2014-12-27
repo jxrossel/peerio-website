@@ -561,7 +561,7 @@ p {
   display: none !important; }
 
 .main-header {
-  background-color: #2895d0;
+  background-color: #5396D3;
   width: 100%; }
   .main-header .menu-icon {
     background: url("../img/burger-icon.png") center no-repeat;
@@ -585,10 +585,7 @@ p {
     width: 124px; }
     .main-header .logo-title a {
       background: url("../img/logo-title.png") center no-repeat;
-      -webkit-background-size: 124px 48px;
-         -moz-background-size: 124px 48px;
-           -o-background-size: 124px 48px;
-              background-size: 124px 48px;
+              background-size: 120px auto;
       display: block;
       height: 100%;
       width: 100%; }
@@ -679,7 +676,11 @@ p {
     margin: 0; }
 
 .title-section {
-  background-color: #2895d0;
+  background-color: #5396D3;
+  background-image: url('../img/PaperPlane.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 510px -270px;
   color: #fff;
   position: relative;
   text-align: center;
@@ -801,10 +802,7 @@ p {
     height: 112px;
     width: 250px; }
     .main-header .logo-title a {
-      -webkit-background-size: 290px 112px;
-         -moz-background-size: 290px 112px;
-           -o-background-size: 290px 112px;
-              background-size: 290px 112px; }
+              background-size: 250px auto; }
   .menu-wrapper .close-icon {
     -webkit-background-size: 45px 45px;
        -moz-background-size: 45px;
@@ -1012,7 +1010,7 @@ p {
 
 @media only screen and (min-width: 1200px) {
   .blue-background {
-    background-color: #2895d0; }
+    background-color: #5396D3; }
   .grey-background {
     background-color: #f6f6f6; }
   .main-header {
