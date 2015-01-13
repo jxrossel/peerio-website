@@ -20,18 +20,24 @@ $(window).load(function() {
 		bindDownloadButton: function() {
 			if (navigator.userAgent.match('Mobile')) {
 				$('a.sign-button').attr('href', '#');
-				$('span.sign-button-platform').text('Download for Android')				
+				$('span.sign-button-platform').text('Coming Soon for Mobile')				
 			}
 			else if (navigator.userAgent.match('Chrome')) {
-				$('a.sign-button').attr('href', '#');
-				$('span.sign-button-platform').text('Download for Google Chrome')				
+				$('a.sign-button').attr('href', 'https://chrome.google.com/webstore/detail/peerio/khipofjlgnklanmhddccafbogkkhmdpm');
+				$('span.sign-button-platform').text('Download for Google Chrome')		
+				$('a.sign-button').unbind().on('click', function(e) {
+					e.preventDefault()
+					chrome.webstore.install(
+						'https://chrome.google.com/webstore/detail/peerio/khipofjlgnklanmhddccafbogkkhmdpm'
+					)
+				})
 			}
 			else if (navigator.userAgent.match('Windows')) {
-				$('a.sign-button').attr('href', '#');
+				$('a.sign-button').attr('href', 'https://peerio.com/download/peerio-win.exe');
 				$('span.sign-button-platform').text('Download for Windows')				
 			}
 			else if (navigator.userAgent.match('Macintosh')) {
-				$('a.sign-button').attr('href', '#');
+				$('a.sign-button').attr('href', 'https://peerio.com/download/peerio-mac.zip');
 				$('span.sign-button-platform').text('Download for Mac')				
 			}
 		},
