@@ -23,12 +23,12 @@ $(window).load(function() {
 				$('span.sign-button-platform').text('Coming Soon for Mobile')				
 			}
 			else if (navigator.userAgent.match('Chrome')) {
-				$('a.sign-button').attr('href', 'https://chrome.google.com/webstore/detail/peerio/khipofjlgnklanmhddccafbogkkhmdpm');
+				$('a.sign-button').attr('href', 'https://chrome.google.com/webstore/detail/khipofjlgnklanmhddccafbogkkhmdpm');
 				$('span.sign-button-platform').text('Download for Google Chrome')		
 				$('a.sign-button').unbind().on('click', function(e) {
 					e.preventDefault()
 					chrome.webstore.install(
-						'https://chrome.google.com/webstore/detail/peerio/khipofjlgnklanmhddccafbogkkhmdpm'
+						'https://chrome.google.com/webstore/detail/khipofjlgnklanmhddccafbogkkhmdpm'
 					)
 				})
 			}
