@@ -41,6 +41,13 @@
         <script type="application/javascript" src="../dist/js/vendor/modernizr-2.8.3.min.js"></script>
         <script type="application/javascript" src="../dist/js/vendor/respond-1.4.2.min.js"></script>
         <script type="application/javascript" src="../dist/js/main.js"></script>
+		
+		<!-- Styles -->
+		<style>
+			.beta a{
+				border-bottom: 1px solid #fff;}
+		</style>
+		
     </head>
 
     <body>
@@ -48,30 +55,11 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="blue-background">
-            <header class="main-header">
-                <div class="logo-title"><a href=".."></a></div>
-
-                <div class="menu-icon tabletOnly" data-action="toggleMobileMenu"></div>
-
-                <div class="menu-wrapper closed">
-                    <nav class="main-nav">
-                        <div class="close-icon tabletOnly" data-action="toggleMobileMenu"></div>
-
-                        <ul class="primary">
-                            <li class="item active"><a href="beta.html">Beta</a></li>
-                            <li class="item"><a href="features.html">Features</a></li>
-                            <li class="item"><a href="technology.html">Our Technology</a></li>
-                            <li class="item"><a href="http://support.peerio.com">Support</a></li>
-                        </ul>
-
-                        <ul class="secondary">
-                            <li class="item"><a href="press.html">Press</a></li>
-                            <li class="item"><a href="http://blog.peerio.com">Blog</a></li>
-                            <li class="item"><a href="referrals.html">Referrals</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+			<header class="main-header"> 
+				
+				<!--#include file="header.html" -->
+				
+			</header>
         </div>
 
         <div class="main">
@@ -79,8 +67,8 @@
             <div class="blue-background">
                 <div class="title-section wrapper clearfix">
                     <div class="content">
-                        <h1>What is Peerio beta?</h1>
-                        <p>Tested and proven security. Your privacy, your way.<p>                      
+                        <h1>Peerio bêta, c'est quoi ?</h1>
+                        <p>La sécurité testée et prouvée : vie privée préservée.<p>                      
                     </div>
 
                     <div class="section-icon">
@@ -96,8 +84,8 @@
                 <div class="content-item clearfix">
                     <div class="content">                       
                         
-                         <h2>Why release software in beta?</h2>
-                        <p>Great development teams and programmers can design great software, but it's users who will make it perfect. You know better than anyone what you want from your messaging and cloud storage service. As Peerio continues to develop and innovate, your thoughts and ideas are shared directly with our developers to ensure Peerio is designed for you, by you.</p>                  
+                         <h2>Pourquoi une version bêta ?</h2>
+                        <p>Les meilleures équipes de développement peuvent concevoir de super logiciels ou applications, mais ce sont les utilisateurs qui le rendent parfait. Vous savez mieux que quiconque quelles fonctionnalités vous sont utiles pour la messagerie ou le clouding. Peerio continue son développement et l'innovation, vos idées sont directement soumises à nos développeurs pour continuer à améliorer Peerio.</p>                  
                     </div>
 
                     <div class="img-container">
@@ -107,8 +95,8 @@
 
                  <div class="content-item clearfix">
                     <div class="content">                    
-                        <h2>Secure from the start.</h2>
-                         <p>Peerio builds off miniLock, an open-source, peer reviewed, and proven encryption standard developed by Peerio's lead software engineer and security expert. Peerio uses state-of-the-art encryption protocols that have been independently audited by expert cryptographers and system penetration testers to assure your data and privacy are protected.</p>                   
+                        <h2>Sécuriser dès le début. </h2>
+                         <p>Peerio a été construit avec miniLock, un système pair open source qui met en place un chiffrement, modifié par l'équipe d'experts de Peerio. Le système de cryptage a été audité par des experts en cryptographie indépendants. Des tests de pénétration du système ont été faits pour vérifier la fiabilité de de protection de la vie privée et des données.</p>                   
                     </div>
 
                     <div class="img-container">
@@ -118,8 +106,8 @@
 
                 <div class="content-item clearfix">
                     <div class="content">                    
-                        <h2>A collaborative project.</h2>
-                         <p>When you trust a tool to protect you, you should be able to know how it works. Peerio's code is open-source and publicly available at GitHub for you to review and comment on. Peerio offers a bug bounty to encourage ongoing security research and reward those who  dedicate their time to making Peerio as safe as possible. </p>                   
+                        <h2>Un projet collaboratif.</h2>
+                         <p>Lorsque vous choisissez un outil de protection, vous devriez être en mesure de comprendre comment il fonctionne. Le code de Peerio est open source et disponible sur la plateforme GitHub. Cea vous permet de l'évaluer, ou de le faire évaluer...  Peerio offre une "prime de bug" pour encourager la recherche en sécurité et récompenser ceux qui consacrent du temps à l'amélioration de Peerio.</p>                   
                     </div>
 
                     <div class="img-container">
@@ -129,8 +117,8 @@
 
                  <div class="content-item clearfix">
                     <div class="content">                    
-                        <h2>Your ideas matter.</h2>
-                         <p>You don't need to be a programmer to have opinions about your privacy or the tools used to protect it. We want to know what you think about Peerio, online security, and what we can do to enhance the tools you use to maintain privacy online. Share your thoughts with us at feedback@peerio.com. </p>                   
+                        <h2>Vos idées comptent.</h2>
+                         <p>Vous n'avez pas besoin d'être développeur pour avoir une opinion concernant la vie privée et les outils que vous utilisez. Nous voulons savoir ce que vous pensez de Peerio, et comment nous pouvons améliorer ces outils que vous utilisez en ligne. Partagez vos idées et commentaires avec nous en écrivant à feedback@peerio.com.</p>                   
                     </div>
 
                     <div class="img-container">
@@ -145,18 +133,9 @@
 
         <div class="grey-background">
             <footer class="main-footer wrapper">
-                <div class="footer-info clearfix">
-                   <ul class="footer-menu desktopOnly">
-                        <li class="item"><a href="beta.html">Beta</a></li>
-                        <li class="item"><a href="features.html">Features</a></li>
-                        <li class="item"><a href="technology.html">Our technology</a></li>
-                        <li class="item"><a href="press.html">Press</a></li>
-                        <li class="item"><a href="http://support.peerio.com">Support</a></li>
-                    </ul>
-
-                    <div class="logo"><img src="../dist/img/logo-footer.png" alt="" /></div>
-                    <p class="copyright">Copyright © 2015 Technologies Peerio Inc.</p>
-                </div>
+			
+				<!--#include file="footer.html" -->
+			
             </footer>
         </div>
 
