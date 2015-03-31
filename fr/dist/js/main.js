@@ -21,11 +21,11 @@ $(window).load(function() {
 		bindDownloadButton: function() {
 			if (navigator.userAgent.match('Mobile')) {
 				$('a.sign-button').attr('href', '#');
-				$('span.sign-button-platform').text('Coming Soon for Mobile')				
+				$('span.sign-button-platform').text('Bientôt disponible pour mobile')				
 			}
 			else if (navigator.userAgent.match('Chrome')) {
 				$('a.sign-button').attr('href', 'https://chrome.google.com/webstore/detail/khipofjlgnklanmhddccafbogkkhmdpm');
-				$('span.sign-button-platform').text('Download for Google Chrome ' + $version)		
+				$('span.sign-button-platform').text('Télécharger pour Google Chrome ' + $version)		
 				$('a.sign-button').unbind().on('click', function(e) {
 					e.preventDefault()
 					chrome.webstore.install(
@@ -35,11 +35,11 @@ $(window).load(function() {
 			}
 			else if (navigator.userAgent.match('Windows')) {
 				$('a.sign-button').attr('href', 'https://peerio.com/download/peerio-win.exe');
-				$('span.sign-button-platform').text('Download for Windows ' + $version)				
+				$('span.sign-button-platform').text('Télécharger pour Windows ' + $version)				
 			}
 			else if (navigator.userAgent.match('Macintosh')) {
 				$('a.sign-button').attr('href', 'https://peerio.com/download/peerio-mac.zip');
-				$('span.sign-button-platform').text('Download for Mac ' + $version)				
+				$('span.sign-button-platform').text('Télécharger pour Mac ' + $version)				
 			}
 		},
 

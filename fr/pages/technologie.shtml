@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" data-page="technology"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Peerio >> Notre Technologie</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="../dist/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../dist/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../dist/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../dist/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../dist/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../dist/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../dist/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../dist/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../dist/img/favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-32x32.png" sizes="32x32">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="../dist/img/favicons/mstile-144x144.png">
+        
+        <!-- Chrome -->
+        <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/khipofjlgnklanmhddccafbogkkhmdpm" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="../dist/css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="../dist/css/main.css">
+
+        <!-- Scripts -->
+        <script type="application/javascript" src="../dist/js/vendor/jquery-1.11.2.min.js"></script>
+        <script type="application/javascript" src="../dist/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="application/javascript" src="../dist/js/vendor/respond-1.4.2.min.js"></script>
+        <script type="application/javascript" src="../dist/js/main.js"></script>
+		
+		<!-- Styles -->
+		<style>
+			.technologie a{
+				border-bottom: 1px solid #fff;}
+		</style>
+		
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="blue-background">
+			<header class="main-header"> 
+				
+				<!--#include file="header.html" -->
+				
+			</header>
+        </div>
+
+        <div class="main">
+            <!-- CONTENT -->
+            <div class="blue-background">
+                <div class="title-section wrapper clearfix">
+                    <div class="content">
+                        <h1>Peerio veut dire sécurité pour chacun.</h1>
+                        <p>Evaluation des pairs, vérification par des professionnels, et facile à utiliser le cryptage pour tout le monde.</p>
+                    </div>
+
+                    <div class="section-icon">
+                        <img class="desktopOnly" src="../dist/img/content/technology-padlock.png" alt="" />
+                    </div>
+
+                    <div class="down-button" data-action="scrollToContent"></div>
+                </div>
+            </div>
+
+            <div class="content-section wrapper">
+
+                    <div class="content-item clearfix">
+                    <div class="content">                     
+                        <h2>Open source et évaluation des pairs.</h2>
+                        <p>Mettre en place un système de chiffrage sécurisé n'est pas simple. C'est pourquoi la technologie d'encryptage de bout en bout de Peerio est open source et évaluée par pairs. Nous mettons la méthode de chiffrage au niveau de l'art, et chacun dans le monde peut vérifier la qualité du fonctionnement. Vous pouvez <a href="https://github.com/PeerioTechnologies/peerio-client" target="_blank">vérifier et analyser le code de Peerio via GitHub</a>.</p>                      
+                    </div>
+
+                    <div class="img-container">
+                        <img src="../dist/img/content/opensourcereview.png" alt="" />
+                    </div>
+                </div>  
+
+                       <div class="content-item clearfix">
+                    <div class="content">
+                        <h2>Rendre la sécurité envisageable.</h2>
+                        <p>La majorité des moyens de communication utilisés aujourd'hui ont un cryptage accessible au voleurs de données.Jusqu'à maintenant les outils de chiffrement étaient plutôt difficiles à utiliser et réservés à des connaisseurs. Peerio a été conçu pour chacun. Après tout, à quoi sert une bonne méthode de cryptage si personne ne peut l'utiliser ? Que vous soyez novice, geek ou gourou, Peerio a été conçu pour vous.</p>
+                    </div>
+                    
+                    <div class="img-container">
+                        <img src="../dist/img/content/accessible.png" alt="" />
+                    </div>
+                </div>
+
+                <div class="content-item clearfix">
+                    <div class="content">
+
+                        <h2>Chiffrement de bout en bout.</h2>
+                        <p>Avec la plupart des services, les données sont cryptées lors de la transmission vers les serveurs. Les données et les fichiers sont stockées sans chiffrement, pendant des mois voire des années. Avec le cryptage de bout en bout de Peerio, vos données sont chiffrées à chaque étape, et peuvent être consultées uniquement par vous et vos destinataires. Même l'équipe de Peerio ne peut accéder à vos données.</p>                                           
+                    </div>
+
+                    <div class="img-container">
+                        <img src="../dist/img/content/technology-endtoend.png" alt="" />
+                    </div>
+                </div>                            
+            </div>
+
+            <!-- END CONTENT -->
+        </div>
+
+        <div class="grey-background">
+            <footer class="main-footer wrapper">
+			
+				<!--#include file="footer.html" -->
+			
+            </footer>
+        </div>
+
+        <!-- Google Analytics: change googleAccount to your account's ID. -->
+        <script>
+            var googleAccount = "'UA-57180517-1'";
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create',googleAccount);ga('send','pageview');
+        </script>
+    </body>
+</html>

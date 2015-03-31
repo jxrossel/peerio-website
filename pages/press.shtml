@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" data-page="press"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Peerio >> Press</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="../dist/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../dist/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../dist/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../dist/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../dist/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../dist/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../dist/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../dist/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../dist/img/favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-32x32.png" sizes="32x32">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="../dist/img/favicons/mstile-144x144.png">
+        
+        <!-- Chrome -->
+        <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/khipofjlgnklanmhddccafbogkkhmdpm" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="../dist/css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="../dist/css/main.css">
+
+        <!-- Scripts -->
+        <script type="application/javascript" src="../dist/js/vendor/jquery-1.11.2.min.js"></script>
+        <script type="application/javascript" src="../dist/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="application/javascript" src="../dist/js/vendor/respond-1.4.2.min.js"></script>
+        <script type="application/javascript" src="../dist/js/main.js"></script>
+    </head>
+
+    <body class="press">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="blue-background">
+			<header class="main-header"> 
+				
+				<!--#include file="header.html" -->
+				
+			</header>
+        </div>
+
+        <div class="main">
+            <!-- CONTENT -->
+            <div class="blue-background">
+                <div class="title-section wrapper clearfix">
+                    <div class="content">
+                        <h1>What's the scoop?</h1>
+                        <p>The latest press releases, news, and coverage of Peerio.</p>
+                    </div>
+
+                    <div class="section-icon">
+                        <img class="desktopOnly" src="../dist/img/content/press.png" alt="" />
+                    </div>
+
+                    <div class="down-button" data-action="scrollToContent"></div>
+                </div>
+            </div>
+
+      <div class="content-section wrapper">            
+
+                <div class="content-item full-width clearfix">
+                    <div class="content content-primary">                       
+                        <h2 class="news">News</h2>
+                        <div class="content-grid-item">
+                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/"><img class="retina" src="../dist/img/content/press-logo-zdnet.png" /></a>
+                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/">Meet the free encryption app that promises to put your privacy first</a>
+                        </div>
+                        <div class="content-grid-item">
+                            <a href="http://www.wired.com/2015/01/peerio-free-encryption-app/"><img class="retina" src="../dist/img/content/press-logo-wired.png" /></a>
+                            <a href="http://www.wired.com/2015/01/peerio-free-encryption-app/">The Free Encryption App That Wants to Replace Gmail, Dropbox, and HipChat</a>
+                        </div>
+                        <div class="content-grid-item">
+                            <a href="http://www.pcworld.com/article/2871254/peerio-hands-on-this-secure-messaging-suite-packs-dead-simple-end-to-end-encryption.html"><img class="retina" src="../dist/img/content/press-logo-pcworld.png" /></a>
+                            <a href="http://www.pcworld.com/article/2871254/peerio-hands-on-this-secure-messaging-suite-packs-dead-simple-end-to-end-encryption.html">Peerio hands-on: This secure messaging suite packs dead simple end-to-end encryption</a>
+                        </div>
+                        <div class="content-grid-item">
+                            <a href="http://thehackernews.com/2015/01/peerio-encrypted-secure-messenger.html"><img class="retina" src="../dist/img/content/press-logo-thehackernews.png" /></a>
+                            <a href="http://thehackernews.com/2015/01/peerio-encrypted-secure-messenger.html">Peerio — End-to-End Encrypted Secure Messenger and File Sharing App</a>
+                        </div>
+                        <div class="content-grid-item">
+                            <a href="http://www.tomshardware.com/news/peerio-easy-end-to-end-email,28392.html"><img class="retina" src="../dist/img/content/press-logo-tomshardware.png" /></a>
+                            <a href="http://www.tomshardware.com/news/peerio-easy-end-to-end-email,28392.html">Peerio Launches With Easy To Use End-To-End Encrypted Email</a>
+                        </div>
+                        <div class="content-grid-item">
+                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/"><img class="retina" src="../dist/img/content/press-logo-thaitech.png" /></a>
+                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/">Peerio: A super simple way of sending end to end encrypted email</a>
+                        </div>
+                    </div>
+                    <div class="content content-secondary">                       
+                        <h2 class="contact">Contact</h2>
+						
+						<div class="press-contact-logo"><img src="../dist/img/favicons/icon300.png"></div>
+
+						<div class="press-contact-info">
+							Press
+							<a href="mailto:press@peerio.com">press@peerio.com</a><br/>
+							<a class="social" href="https://twitter.com/peerio"><img src="../dist/img/Twitter.png"/></a>
+							<a class="social" href="https://www.facebook.com/peerioapp"><img src="../dist/img/facebook.png"/></a>
+						</div>
+						
+                        <h2 class="press-release">Press release</h2>
+                        <a href="../dist/pdf/launchpressrelease.pdf">14-Jan-2015: Free Encrypted Messaging and Cloud Storage App to Replace E-mail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END CONTENT -->
+        </div>
+
+        <div class="grey-background">
+            <footer class="main-footer wrapper">
+			
+				<!--#include file="footer.html" -->
+			
+            </footer>
+        </div>
+
+        <!-- Google Analytics: change googleAccount to your account's ID. -->
+        <script>
+            var googleAccount = "'UA-57180517-1'";
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create',googleAccount);ga('send','pageview');
+        </script>
+    </body>
+</html>

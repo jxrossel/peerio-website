@@ -938,9 +938,9 @@ p {
     font-size: 26px; }
   p {
     font-size: 18px; }
-  .title-section h2 {
+  .title-section h2  {
     text-align:left;}
-  .title-section h1 {
+  .title-section h1  {
     text-align:left;}
   .main-header {
     height: 200px;
@@ -953,7 +953,7 @@ p {
     float: right;
     left: auto;
     position: static;
-    width: 500px; }
+    width: 530px; }
     .menu-wrapper.closed {
       left: auto; }
     .menu-wrapper .main-nav {

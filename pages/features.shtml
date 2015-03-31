@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" data-page="features"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Peerio >> Features</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="../dist/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../dist/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../dist/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../dist/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../dist/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../dist/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../dist/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../dist/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../dist/img/favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="../dist/img/favicons/favicon-32x32.png" sizes="32x32">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="../dist/img/favicons/mstile-144x144.png">
+        
+        <!-- Chrome -->
+        <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/khipofjlgnklanmhddccafbogkkhmdpm" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="../dist/css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="../dist/css/main.css">
+
+        <!-- Scripts -->
+        <script type="application/javascript" src="../dist/js/vendor/jquery-1.11.2.min.js"></script>
+        <script type="application/javascript" src="../dist/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="application/javascript" src="../dist/js/vendor/respond-1.4.2.min.js"></script>
+        <script type="application/javascript" src="../dist/js/main.js"></script>
+		
+		<!-- Styles -->
+		<style>
+			.features a{
+				border-bottom: 1px solid #fff;}
+		</style>
+		
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="blue-background">
+			<header class="main-header"> 
+				
+				<!--#include file="header.html" -->
+				
+			</header>
+        </div>
+
+        <div class="main">
+            <!-- CONTENT -->
+            <div class="blue-background">
+                <div class="title-section wrapper clearfix">
+                    <div class="content">
+                        <h1>State-of-the-art security. As easy as e-mail.</h1>
+                        <p>Download, sign up, login, and you’re ready to go. Peerio is intuitive and easy to use so you can focus on what’s important to you.</p>
+                    </div>
+
+                    <div class="section-icon">
+                        <img class="desktopOnly" src="../dist/img/content/howItWorks-laptop.png" alt="" />
+                    </div>
+
+                    <div class="down-button" data-action="scrollToContent"></div>
+                </div>
+            </div>
+
+        <div class="content-section wrapper">     
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/howItWorks-search.png" alt="" /></div>
+                    <h2>Intelligent search.</h2>
+                    <p>Don’t remember the name of your file, but you know who sent it? Want to find what your colleague said about that meeting next week? Peerio’s search is designed to make answering these questions quick and easy. Start entering your search and Peerio will neatly display relevant messages, files, and contacts in their own tabs. No browsing through long exchanges or digging through folders. Your data finds you.</p>                     
+            </div>
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/acknowledgement.png" alt="" /></div>
+                    <h2>One-click acknowledgement.</h2>
+                    <p>No time for a full response? Send a one-click acknowledgement to reassure a sender you’ve read their message.</p>                   
+            </div> 
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/noadds.png" alt="" /></div>                   
+                     <h2>Ad-free, forever.</h2>
+                    <p>A clean workspace is calming, focused, and productive. Advertisements are virtual clutter. That's why Peerio has a strict ad-free policy for all users, now and forever.</p>                   
+            </div> 
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/nospam.png" alt="" /></div>                   
+                     <h2>No Spam, No phishing.</h2>
+                    <p>With a peer-based network and a secure contact verification method, you control who can message you—and who can't. All users are given a unique miniLock ID and cryptographically generated avatar, so you can verify your contact's identity at a glance.</p>                   
+            </div>   
+
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/contacts.png" alt="" /></div>                   
+                     <h2>Selective contact import.</h2>
+                    <p>Import and clean up your contact list. Just upload your contacts to Peerio and select only the people you want to be in touch with. If your contacts aren’t already on Peerio, you can send them an invitation to join and both of you will reap <a href="referrals.shtml">referral rewards</a>.</p>                   
+            </div> 			
+
+              <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/home-locked.png" alt="" /></div>                                      
+                     <h2>Mobile support (coming soon!)</h2>
+                    <p>Peerio will be available for Google Chrome, PC, Mac, iPhone, Android, Windows phones, and Blackberry soon! Seamlessly sync your data across all your devices and enjoy the full security of Peerio on the go.</p>                   
+            </div>          
+        </div>
+
+            <!-- END CONTENT -->
+        </div>
+
+        <div class="grey-background">
+            <footer class="main-footer wrapper">
+			
+				<!--#include file="footer.html" -->
+			
+            </footer>
+        </div>
+
+        <!-- Google Analytics: change googleAccount to your account's ID. -->
+        <script>
+            var googleAccount = "'UA-57180517-1'";
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create',googleAccount);ga('send','pageview');
+        </script>
+    </body>
+</html>
