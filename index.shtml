@@ -45,56 +45,47 @@
     </head>
 
     <body>
+	
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="blue-background">
-            <header class="main-header">
-                <div class="logo-title"><a href="#"></a></div>
-
-                <div class="menu-icon tabletOnly" data-action="toggleMobileMenu"></div>
-
-                <div class="menu-wrapper closed">
-                    <nav class="main-nav">
-                        <div class="close-icon tabletOnly" data-action="toggleMobileMenu"></div>
-
-                        <ul class="primary">
-                            <li class="item"><a href="pages/beta.html">Beta</a></li>
-                            <li class="item"><a href="pages/features.html">Features</a></li>
-                            <li class="item"><a href="pages/technology.html">Our Technology</a></li>
-                            <li class="item"><a href="http://support.peerio.com">Support</a></li>
-                        </ul>
-
-                        <ul class="secondary">
-                            <li class="item"><a href="pages/press.html">Press</a></li>
-                            <li class="item"><a href="http://blog.peerio.com">Blog</a></li>
-                            <li class="item"><a href="pages/referrals.html">Referrals</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-        </div>
+			<header class="main-header"> 
+				
+				<!--#include file="pages/header.html" -->
+				
+			</header>
+		</div>
 
         <div class="main">
             <!-- CONTENT -->
             <div class="blue-background">
                 <div class="title-section wrapper clearfix">
-                    <div class="video-button desktopOnly"><a href="#0" class="sublime"></a></div>
-                    <video id="0" width="800" height="450" data-uid="0" preload="none" style="display:none">
-                      <source src="https://peerio.com/video/peerio.mp4" data-quality="hd" />
-                      <source src="https://peerio.com/video/peerio.webm" data-quality="hd" />
-                    </video>
+                    <div class="video-button desktopOnly" onclick="showVideo()"></div>
+					
+					<div class="video2" onclick="hideVideo()"><iframe class="player" id="player" src="https://player.vimeo.com/video/116727684?api=1?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+					
                     <div class="content">
                         <h2>Secure messaging and file sharing made easy.</h2>
 
-                        <div class="video-button tabletOnly"><a href="#"></a></div>
+                        <div class="video-button tabletOnly" onclick="showVideo()"></div>
 
                         <a class="sign-button" href="https://chrome.google.com/webstore/detail/khipofjlgnklanmhddccafbogkkhmdpm">
                             <span class="title">Get Peerio Now!</span>
                             <span class="sign-button-platform"></span>
                         </a>
+						
+						<div class="info-bubble-wrapper">
+						
+							<div class="info-bubble sign-button">?</div>
+						
+							<div class="info-bubble-popup sign-button">Peerio is <a href="https://peerio.zendesk.com/hc/en-us/articles/203331999-How-can-I-ensure-my-Peerio-download-is-authentic">code signed</a> so you can verify the authenticity of your download.</a></div>
 
-                        <p>
+						</div>
+						
+						<br/>
+						
+                        <p class="clearboth">
                              Available for <a href="https://chrome.google.com/webstore/detail/khipofjlgnklanmhddccafbogkkhmdpm">Chrome</a>, <a href="https://peerio.com/download/peerio-win.exe">Windows</a>, <a href="https://peerio.com/download/peerio-mac.zip">Mac</a>.
                             <br />
                             <span class="mini">coming soon to android and ios.</span>
@@ -139,22 +130,9 @@
 
         <div class="grey-background">
             <footer class="main-footer wrapper">
-                <a class="sign-button" href="pages/press.html">
-                    <span class="title">Get Peerio</span>
-                </a>
-
-                <div class="footer-info clearfix">
-                    <ul class="footer-menu desktopOnly">
-                        <li class="item"><a href="pages/beta.html">Beta</a></li>
-                        <li class="item"><a href="pages/features.html">Features</a></li>
-                        <li class="item"><a href="pages/technology.html">Our technology</a></li>
-                        <li class="item"><a href="pages/press.html">Press</a></li>
-                        <li class="item"><a href="http://support.peerio.com">Support</a></li>
-                    </ul>
-
-                    <div class="logo"><img src="dist/img/logo-footer.png" alt="" /></div>
-                    <p class="copyright">Copyright © 2015 Technologies Peerio Inc.</p>
-                </div>
+			
+				<!--#include file="pages/footer.html" -->
+			
             </footer>
         </div>
 
