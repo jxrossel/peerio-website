@@ -41,6 +41,13 @@
         <script type="application/javascript" src="../dist/js/vendor/modernizr-2.8.3.min.js"></script>
         <script type="application/javascript" src="../dist/js/vendor/respond-1.4.2.min.js"></script>
         <script type="application/javascript" src="../dist/js/main.js"></script>
+		
+		<!-- Styles -->
+		<style>
+			.beta a{
+				border-bottom: 1px solid #fff;}
+		</style>
+		
     </head>
 
     <body>
@@ -48,30 +55,11 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="blue-background">
-            <header class="main-header">
-                <div class="logo-title"><a href=".."></a></div>
-
-                <div class="menu-icon tabletOnly" data-action="toggleMobileMenu"></div>
-
-                <div class="menu-wrapper closed">
-                    <nav class="main-nav">
-                        <div class="close-icon tabletOnly" data-action="toggleMobileMenu"></div>
-
-                        <ul class="primary">
-                            <li class="item active"><a href="beta.html">Beta</a></li>
-                            <li class="item"><a href="features.html">Features</a></li>
-                            <li class="item"><a href="technology.html">Our Technology</a></li>
-                            <li class="item"><a href="http://support.peerio.com">Support</a></li>
-                        </ul>
-
-                        <ul class="secondary">
-                            <li class="item"><a href="press.html">Press</a></li>
-                            <li class="item"><a href="http://blog.peerio.com">Blog</a></li>
-                            <li class="item"><a href="referrals.html">Referrals</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+			<header class="main-header"> 
+				
+				<!--#include file="header.html" -->
+				
+			</header>
         </div>
 
         <div class="main">
@@ -145,18 +133,9 @@
 
         <div class="grey-background">
             <footer class="main-footer wrapper">
-                <div class="footer-info clearfix">
-                   <ul class="footer-menu desktopOnly">
-                        <li class="item"><a href="beta.html">Beta</a></li>
-                        <li class="item"><a href="features.html">Features</a></li>
-                        <li class="item"><a href="technology.html">Our technology</a></li>
-                        <li class="item"><a href="press.html">Press</a></li>
-                        <li class="item"><a href="http://support.peerio.com">Support</a></li>
-                    </ul>
-
-                    <div class="logo"><img src="../dist/img/logo-footer.png" alt="" /></div>
-                    <p class="copyright">Copyright © 2015 Technologies Peerio Inc.</p>
-                </div>
+			
+				<!--#include file="footer.html" -->
+			
             </footer>
         </div>
 
