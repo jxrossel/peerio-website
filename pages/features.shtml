@@ -41,6 +41,13 @@
         <script type="application/javascript" src="../dist/js/vendor/modernizr-2.8.3.min.js"></script>
         <script type="application/javascript" src="../dist/js/vendor/respond-1.4.2.min.js"></script>
         <script type="application/javascript" src="../dist/js/main.js"></script>
+		
+		<!-- Styles -->
+		<style>
+			.features a{
+				border-bottom: 1px solid #fff;}
+		</style>
+		
     </head>
 
     <body>
@@ -49,30 +56,11 @@
         <![endif]-->
 
         <div class="blue-background">
-            <header class="main-header">
-                <div class="logo-title"><a href=".."></a></div>
-
-                <div class="menu-icon tabletOnly" data-action="toggleMobileMenu"></div>
-
-                <div class="menu-wrapper closed">
-                    <nav class="main-nav">
-                        <div class="close-icon tabletOnly" data-action="toggleMobileMenu"></div>
-
-                        <ul class="primary">
-                            <li class="item"><a href="beta.html">Beta</a></li>
-                            <li class="item active"><a href="features.html">Features</a></li>
-                            <li class="item"><a href="technology.html">Our Technology</a></li>
-                            <li class="item"><a href="http://support.peerio.com">Support</a></li>
-                        </ul>
-
-                        <ul class="secondary">
-                            <li class="item"><a href="press.html">Press</a></li>
-                            <li class="item"><a href="http://blog.peerio.com">Blog</a></li>
-                            <li class="item"><a href="referrals.html">Referrals</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+			<header class="main-header"> 
+				
+				<!--#include file="header.html" -->
+				
+			</header>
         </div>
 
         <div class="main">
@@ -114,9 +102,16 @@
 
             <div class="content-item clearfix">
                     <div class="img-container"><img src="../dist/img/content/nospam.png" alt="" /></div>                   
-                     <h2>No spam, no phishing</h2>
-                    <p>With a peer-based network and a secure contact verification method, you control who can message you—and who can't. All users are given a unique cryptographically generated avatar. Confirm the identity of your contacts by having them verify their avatars with you.</p>                   
-            </div>      
+                     <h2>No Spam, No phishing.</h2>
+                    <p>With a peer-based network and a secure contact verification method, you control who can message you—and who can't. All users are given a unique miniLock ID and cryptographically generated avatar, so you can verify your contact's identity at a glance.</p>                   
+            </div>   
+
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/contacts.png" alt="" /></div>                   
+                     <h2>Selective contact import.</h2>
+                    <p>Import and clean up your contact list. Just upload your contacts to Peerio and select only the people you want to be in touch with. If your contacts aren’t already on Peerio, you can send them an invitation to join and both of you will reap <a href="referrals.shtml">referral rewards</a>.</p>                   
+            </div> 			
 
               <div class="content-item clearfix">
                     <div class="img-container"><img src="../dist/img/content/home-locked.png" alt="" /></div>                                      
@@ -130,22 +125,9 @@
 
         <div class="grey-background">
             <footer class="main-footer wrapper">
-                <a class="sign-button" href="press.html">
-                    <span class="title">Get Peerio</span>
-                </a>
-
-                <div class="footer-info clearfix">
-                   <ul class="footer-menu desktopOnly">
-                        <li class="item"><a href="beta.html">Beta</a></li>
-                        <li class="item"><a href="features.html">Features</a></li>
-                        <li class="item"><a href="technology.html">Our technology</a></li>
-                        <li class="item"><a href="press.html">Press</a></li>
-                        <li class="item"><a href="http://support.peerio.com">Support</a></li>
-                    </ul>
-
-                    <div class="logo"><img src="../dist/img/logo-footer.png" alt="" /></div>
-                    <p class="copyright">Copyright © 2015 Technologies Peerio Inc.</p>
-                </div>
+			
+				<!--#include file="footer.html" -->
+			
             </footer>
         </div>
 
