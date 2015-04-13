@@ -4,7 +4,7 @@ $(window).load(function() {
 	var $body = $html.find('body');
 	var $main = $body.find('.main');
 	var $content = $body.find('.content-section');
-	var $version = '(1.0.4.2)';
+	var $version = '(1.0.4.3)';
 
 	var App = {
 		init: function(){

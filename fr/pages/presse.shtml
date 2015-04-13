@@ -78,16 +78,20 @@
                     <div class="content content-primary">                       
                         <h2 class="news">Nouvelles</h2>
                         <div class="content-grid-item">
-                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/"><img class="retina" src="../dist/img/content/press-logo-zdnet.png" /></a>
-                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/">Meet the free encryption app that promises to put your privacy first</a>
-                        </div>
-                        <div class="content-grid-item">
                             <a href="http://www.wired.com/2015/01/peerio-free-encryption-app/"><img class="retina" src="../dist/img/content/press-logo-wired.png" /></a>
                             <a href="http://www.wired.com/2015/01/peerio-free-encryption-app/">The Free Encryption App That Wants to Replace Gmail, Dropbox, and HipChat</a>
                         </div>
                         <div class="content-grid-item">
                             <a href="http://www.pcworld.com/article/2871254/peerio-hands-on-this-secure-messaging-suite-packs-dead-simple-end-to-end-encryption.html"><img class="retina" src="../dist/img/content/press-logo-pcworld.png" /></a>
                             <a href="http://www.pcworld.com/article/2871254/peerio-hands-on-this-secure-messaging-suite-packs-dead-simple-end-to-end-encryption.html">Peerio hands-on: This secure messaging suite packs dead simple end-to-end encryption</a>
+                        </div>
+                        <div class="content-grid-item">
+                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/"><img class="retina" src="../dist/img/content/press-logo-zdnet.png" /></a>
+                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/">Meet the free encryption app that promises to put your privacy first</a>
+                        </div>
+                        <div class="content-grid-item">
+                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/"><img class="retina" src="../dist/img/content/press-logo-thaitech.png" /></a>
+                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/">Peerio: A super simple way of sending end to end encrypted email</a>
                         </div>
                         <div class="content-grid-item">
                             <a href="http://thehackernews.com/2015/01/peerio-encrypted-secure-messenger.html"><img class="retina" src="../dist/img/content/press-logo-thehackernews.png" /></a>
@@ -97,10 +101,6 @@
                             <a href="http://www.tomshardware.com/news/peerio-easy-end-to-end-email,28392.html"><img class="retina" src="../dist/img/content/press-logo-tomshardware.png" /></a>
                             <a href="http://www.tomshardware.com/news/peerio-easy-end-to-end-email,28392.html">Peerio Launches With Easy To Use End-To-End Encrypted Email</a>
                         </div>
-                        <div class="content-grid-item">
-                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/"><img class="retina" src="../dist/img/content/press-logo-thaitech.png" /></a>
-                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/">Peerio: A super simple way of sending end to end encrypted email</a>
-                        </div>
                     </div>
                     <div class="content content-secondary">                       
                         <h2 class="contact">Contact</h2>
@@ -108,13 +108,15 @@
 						<div class="press-contact-logo"><img src="../dist/img/favicons/icon300.png"></div>
 
 						<div class="press-contact-info">
-							Presse
-							<a href="mailto:press@peerio.com">press@peerio.com</a><br/>
-							<a class="social" href="https://twitter.com/peerio"><img src="/dist/img/Twitter.png"/></a>
-							<a class="social" href="https://www.facebook.com/peerioapp"><img src="/dist/img/facebook.png"/></a>
+							Peerio <a href="mailto:press@peerio.com">press@peerio.com</a>
+						</div>
+												
+						<div class="press-contact-info">
+							<a class="social" href="https://twitter.com/peerio"><img src="../dist/img/content/press-social-twitter.png"/></a>
+							<a class="social" href="https://www.facebook.com/peerioapp"><img src="../dist/img/content/press-social-facebook.png"/></a>
 						</div>
 						
-                        <h2 class="press-release">Communiqués de presse</h2>
+                        <h2 class="press-release">Press release</h2>
                         <a href="../dist/pdf/launchpressrelease.pdf">14-Jan-2015: Free Encrypted Messaging and Cloud Storage App to Replace E-mail</a>
                     </div>
                 </div>

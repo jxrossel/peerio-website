@@ -3,11 +3,11 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" data-page="press"><!--<![endif]-->
+<html class="no-js" data-page="referalls"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Peerio >> Press</title>
+        <title>Peerio >> Referrals</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -43,7 +43,7 @@
         <script type="application/javascript" src="../dist/js/main.js"></script>
     </head>
 
-    <body class="press">
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -60,12 +60,12 @@
             <div class="blue-background">
                 <div class="title-section wrapper clearfix">
                     <div class="content">
-                        <h1>What's the scoop?</h1>
-                        <p>The latest press releases, news, and coverage of Peerio.</p>
+                        <h1>Referral rewards.</h1>
+                        <p>Get additional storage just for expanding your network.</p>
                     </div>
 
                     <div class="section-icon">
-                        <img class="desktopOnly" src="../dist/img/content/press.png" alt="" />
+                        <img class="desktopOnly" src="../dist/img/content/referrals.png" alt="" />
                     </div>
 
                     <div class="down-button" data-action="scrollToContent"></div>
@@ -74,50 +74,14 @@
 
       <div class="content-section wrapper">            
 
-                <div class="content-item full-width clearfix">
-                    <div class="content content-primary">                       
-                        <h2 class="news">News</h2>
-                        <div class="content-grid-item">
-                            <a href="http://www.wired.com/2015/01/peerio-free-encryption-app/"><img class="retina" src="../dist/img/content/press-logo-wired.png" /></a>
-                            <a href="http://www.wired.com/2015/01/peerio-free-encryption-app/">The Free Encryption App That Wants to Replace Gmail, Dropbox, and HipChat</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://www.pcworld.com/article/2871254/peerio-hands-on-this-secure-messaging-suite-packs-dead-simple-end-to-end-encryption.html"><img class="retina" src="../dist/img/content/press-logo-pcworld.png" /></a>
-                            <a href="http://www.pcworld.com/article/2871254/peerio-hands-on-this-secure-messaging-suite-packs-dead-simple-end-to-end-encryption.html">Peerio hands-on: This secure messaging suite packs dead simple end-to-end encryption</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/"><img class="retina" src="../dist/img/content/press-logo-zdnet.png" /></a>
-                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/">Meet the free encryption app that promises to put your privacy first</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/"><img class="retina" src="../dist/img/content/press-logo-thaitech.png" /></a>
-                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/">Peerio: A super simple way of sending end to end encrypted email</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://thehackernews.com/2015/01/peerio-encrypted-secure-messenger.html"><img class="retina" src="../dist/img/content/press-logo-thehackernews.png" /></a>
-                            <a href="http://thehackernews.com/2015/01/peerio-encrypted-secure-messenger.html">Peerio — End-to-End Encrypted Secure Messenger and File Sharing App</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://www.tomshardware.com/news/peerio-easy-end-to-end-email,28392.html"><img class="retina" src="../dist/img/content/press-logo-tomshardware.png" /></a>
-                            <a href="http://www.tomshardware.com/news/peerio-easy-end-to-end-email,28392.html">Peerio Launches With Easy To Use End-To-End Encrypted Email</a>
-                        </div>
+                <div class="content-item clearfix">
+                    <div class="content">                       
+                         <h2>More friends, more storage.</h2>
+                    <p><a href="https://peerio.zendesk.com/hc/en-us/articles/203702185-How-do-I-add-a-contact-" target="blank">Invite friends</a>, add contacts, and get up to 10GB of free encrypted cloud storage! Invite a friend to join Peerio and get 250MB of extra storage when they sign up. Are your contacts already on Peerio? Get an additional 25MB of storage for every new contact you add. More friends, more storage, more possibilities.</p>             
                     </div>
-                    <div class="content content-secondary">                       
-                        <h2 class="contact">Contact</h2>
-						
-						<div class="press-contact-logo"><img src="../dist/img/favicons/icon300.png"></div>
 
-						<div class="press-contact-info">
-							Peerio <a href="mailto:press@peerio.com">press@peerio.com</a>
-						</div>
-												
-						<div class="press-contact-info">
-							<a class="social" href="https://twitter.com/peerio"><img src="../dist/img/content/press-social-twitter.png"/></a>
-							<a class="social" href="https://www.facebook.com/peerioapp"><img src="../dist/img/content/press-social-facebook.png"/></a>
-						</div>
-						
-                        <h2 class="press-release">Press release</h2>
-                        <a href="../dist/pdf/launchpressrelease.pdf">14-Jan-2015: Free Encrypted Messaging and Cloud Storage App to Replace E-mail</a>
+                    <div class="img-container">
+                        <img src="../dist/img/content/accessible.png" alt="" />
                     </div>
                 </div>
             </div>
