@@ -3,11 +3,11 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" data-page="press"><!--<![endif]-->
+<html class="no-js" data-page="Fonctionnalités"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Peerio >> Press</title>
+        <title>Peerio >> Fonctionnalités</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,12 +41,20 @@
         <script type="application/javascript" src="../dist/js/vendor/modernizr-2.8.3.min.js"></script>
         <script type="application/javascript" src="../dist/js/vendor/respond-1.4.2.min.js"></script>
         <script type="application/javascript" src="../dist/js/main.js"></script>
+		
+		<!-- Styles -->
+		<style>
+			.fonctionnalités a{
+				border-bottom: 1px solid #fff;}
+		</style>
+		
     </head>
 
-    <body class="press">
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
         <div class="blue-background">
 			<header class="main-header"> 
 				
@@ -60,67 +68,57 @@
             <div class="blue-background">
                 <div class="title-section wrapper clearfix">
                     <div class="content">
-                        <h1>Quoi de neuf ?</h1>
-                        <p>Les récents communiqués de presse et nouvelles au sujet de Peerio.</p>
+                        <h1>La sécurité est un art. Facile comme un email.</h1>
+                        <p>Téléchargez, inscrivez-vous, connectez-vous et vous êtes prêt. Peerio est intuitif et facile d'utilisation, ainsi vous pouvez vous concentrer sur ce qui est important pour vous.</p>
                     </div>
 
                     <div class="section-icon">
-                        <img class="desktopOnly" src="../dist/img/content/press.png" alt="" />
+                        <img class="desktopOnly" src="../dist/img/content/howItWorks-laptop.png" alt="" />
                     </div>
 
                     <div class="down-button" data-action="scrollToContent"></div>
                 </div>
             </div>
 
-      <div class="content-section wrapper">            
+        <div class="content-section wrapper">     
 
-                <div class="content-item full-width clearfix">
-                    <div class="content content-primary">                       
-                        <h2 class="news">Nouvelles</h2>
-                        <div class="content-grid-item">
-                            <a href="http://www.wired.com/2015/01/peerio-free-encryption-app/"><img class="retina" src="../dist/img/content/press-logo-wired.png" /></a>
-                            <a href="http://www.wired.com/2015/01/peerio-free-encryption-app/">The Free Encryption App That Wants to Replace Gmail, Dropbox, and HipChat</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://www.pcworld.com/article/2871254/peerio-hands-on-this-secure-messaging-suite-packs-dead-simple-end-to-end-encryption.html"><img class="retina" src="../dist/img/content/press-logo-pcworld.png" /></a>
-                            <a href="http://www.pcworld.com/article/2871254/peerio-hands-on-this-secure-messaging-suite-packs-dead-simple-end-to-end-encryption.html">Peerio hands-on: This secure messaging suite packs dead simple end-to-end encryption</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/"><img class="retina" src="../dist/img/content/press-logo-zdnet.png" /></a>
-                            <a href="http://www.zdnet.com/article/nsa-busting-encryption-app-peerio-puts-privacy-first/">Meet the free encryption app that promises to put your privacy first</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/"><img class="retina" src="../dist/img/content/press-logo-thaitech.png" /></a>
-                            <a href="http://tech.thaivisa.com/peerio-super-simple-way-sending-end-end-encrypted-email/2808/">Peerio: A super simple way of sending end to end encrypted email</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://thehackernews.com/2015/01/peerio-encrypted-secure-messenger.html"><img class="retina" src="../dist/img/content/press-logo-thehackernews.png" /></a>
-                            <a href="http://thehackernews.com/2015/01/peerio-encrypted-secure-messenger.html">Peerio — End-to-End Encrypted Secure Messenger and File Sharing App</a>
-                        </div>
-                        <div class="content-grid-item">
-                            <a href="http://www.tomshardware.com/news/peerio-easy-end-to-end-email,28392.html"><img class="retina" src="../dist/img/content/press-logo-tomshardware.png" /></a>
-                            <a href="http://www.tomshardware.com/news/peerio-easy-end-to-end-email,28392.html">Peerio Launches With Easy To Use End-To-End Encrypted Email</a>
-                        </div>
-                    </div>
-                    <div class="content content-secondary">                       
-                        <h2 class="contact">Contact</h2>
-						
-						<div class="press-contact-logo"><img src="../dist/img/favicons/icon300.png"></div>
-
-						<div class="press-contact-info">
-							Peerio <a href="mailto:press@peerio.com">press@peerio.com</a>
-						</div>
-												
-						<div class="press-contact-info">
-							<a class="social" href="https://twitter.com/peerio"><img src="../dist/img/content/press-social-twitter.png"/></a>
-							<a class="social" href="https://www.facebook.com/peerioapp"><img src="../dist/img/content/press-social-facebook.png"/></a>
-						</div>
-						
-                        <h2 class="press-release">Press release</h2>
-                        <a href="../dist/pdf/launchpressrelease.pdf">14-Jan-2015: Free Encrypted Messaging and Cloud Storage App to Replace E-mail</a>
-                    </div>
-                </div>
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/howItWorks-search.png" alt="" /></div>
+                    <h2>Une recherche intelligente.</h2>
+                    <p>Vous ne vous souvenez plus du nom du fichier, mais vous savez à qui vous l'avez envoyé ? Vous voulez retrouver ce q'un collègue vous a dit à propose d'une réunion de la semaine dernière ? La recherche de Peerio répond à ces questions rapidement et facilement. Commencez la saisie et Peerio affiche les messages, fichiers et contacts concernés par votre recherche dans les différents onglets. Plus de navigation laborieuse à travers les sous-dossiers... Votre donnée vous trouve.</p>                     
             </div>
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/acknowledgement.png" alt="" /></div>
+                    <h2>Accusé de réception en 1 clic.</h2>
+                    <p>Pas de temps pour rédiger une réponse ? Envoyez un accusé de réception en un clic afin de rassurer votre interlocuteur lui permettant de comprendre que vous avez vu son message.</p>                   
+            </div> 
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/noadds.png" alt="" /></div>                   
+                     <h2>Définitivement sans publicité.</h2>
+                    <p>Un espace de travail propre et bien rangé, focalisé sur la productivité. Les publicités créent le fouillis. C'est pourquoi Peerio n'affiche aucune publicité. Maintemenant et pour toujours.</p>                   
+            </div> 
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/nospam.png" alt="" /></div>                   
+                     <h2>Pas de spam ni phishing..</h2>
+                    <p>Avec un réseau pair à pair et une méthode de vérification des contacts sécurisée, vous contrôlez qui vous envoie des messages, et qui ne peut vous en envoyer. Tous les utilisateurs ont un avatar généré par cryptogramme. confirmez l'identité de vos interlocuteurs en vérifiant leur avatar avec eux.</p>                   
+            </div>   
+
+
+            <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/contacts.png" alt="" /></div>                   
+                     <h2>Importation de contacts sélectif.</h2>
+                    <p>Importez et gérez votre liste de contact. Téléchargez vos contact sur Peerio et sélectionnez ceux avec qui vous voulez rester en contact. Envoyez une invitation à vos contacts et collègues et obtenez de l'espace de storage gratuit pour chaque nouvel utilisateur de Peerio</a>.</p>                   
+            </div> 			
+
+              <div class="content-item clearfix">
+                    <div class="img-container"><img src="../dist/img/content/home-locked.png" alt="" /></div>                                      
+                     <h2>Peerio pour mobiles (bientôt !)</h2>
+                    <p>Peerio sera bientôt disponible pour Google Chrome, PC, Mac, iPhone, Android, Windows phones, et Blackberry bientôt ! Vos données seront parfaitement synchronisées sur tous vos appareils et vous profiterez de la sécurité Peerio partout.</p>                   
+            </div>          
+        </div>
 
             <!-- END CONTENT -->
         </div>
